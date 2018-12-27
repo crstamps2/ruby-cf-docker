@@ -1,4 +1,4 @@
-FROM alpine as build-stage
+FROM ruby:alpine as build-stage
 
 RUN set -x \
     && apk --no-cache --update add \
